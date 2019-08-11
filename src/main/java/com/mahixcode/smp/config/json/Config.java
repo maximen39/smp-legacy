@@ -29,27 +29,27 @@ public class Config {
 
     public String smp = "Servers Management Project";
 
-    public String domain = "unimc.ru";
+    public String domain = "example.com";
     public String protocol = "https";
 
     public String springReservedAdminGroup = "spring_admin";
     public String launcherReservedAdminGroup = "launcher_admin";
     public String launcherReservedServerGroup = "launcher_server";
 
-    public List<String> corsAllowedOrigins = Arrays.asList("https://unimc.ru", "https://www.unimc.ru");
+    public List<String> corsAllowedOrigins = Arrays.asList("https://example.com", "https://www.example.com");
     public List<String> corsAllowedHeaders = Arrays.asList("Origin", "Content-Type", "Accept", "Authorization", "X-Request-With", "Cookie", "Set-Cookie");
     public List<String> corsAllowedMethods = Arrays.asList("POST", "GET", "OPTIONS", "PUT", "DELETE");
 
-    public String emailUsername = "recovery@unimc.ru";
-    public String emailPassword = "AosijhdoisajhdoiTiLohjsad009uas0d";
+    public String emailUsername = "exmaple@domain.com";
+    public String emailPassword = "*****************";
     public String emailName = "UniMC";
     public String emailHost = "smtp.yandex.ru";
     public int emailPort = 465;
 
     public String dataSourceDriver = "com.mysql.cj.jdbc.Driver";
-    public String dataSourceUrl = "jdbc:mysql://164.132.233.12:3306/dev?serverTimezone=UTC";
+    public String dataSourceUrl = "jdbc:mysql://localhost:3306/dev?serverTimezone=UTC";
     public String dataSourceUsername = "dev";
-    public String dataSourcePassword = "hJXdalDpaKd0UdKz";
+    public String dataSourcePassword = "***************";
 
     public boolean hibernateShowSql = true;
     public String hibernateDDL = "update";
